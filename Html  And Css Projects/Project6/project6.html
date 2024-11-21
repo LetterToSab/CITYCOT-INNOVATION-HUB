@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="projecy6.css">
+</head>
+<body>
+  <div class="container">
+    <form action="">
+      <label for="Student Name">Student Name:</label>
+      <input title="please fill out this field" type="text" id="Student Name" name="Student Name" placeholder="Enter student name"><br>
+      <label for="Age">Age:</label>
+      <input title="please fill out this field" type="number" id="Age" name="Age" placeholder="Enter age"><br>
+      <label for="Email">Email:</label>
+      <input title="please fill out this field" type="email" id="Email" name="Email" placeholder="Enter email"><br>
+      <label for="Phone Number">Phone Number:</label>
+      <input title="please fill out this field" type="tel" id="Phone Number" name="Phone Number" placeholder="Enter phone Number"><br>
+      <label for="Gender">Gender:</label><br>
+      <select title="please select an item in the list" name="Gender" id="Gender">
+        <option value="" disabled selected>Select gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select><br>
+      <label for="Courses">Courses:</label><br>
+      <select title="please select an item in the list" name="Courses" id="ourses" >
+        <option value="" disabled selected>Select course</option>
+        <option value="html&css">HTML & CSS</option>
+        <option value="html&css">Javascript</option>
+        <option value="html&css">Python</option>
+      </select><br>
+      <button type="submit">Save</button>
+
+      <h2>Registered Students</h2>
+
+      <table border="1">
+        <tr>
+          <th>Student Name</th>
+          <th>Age</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Gender</th>
+          <th>Course</th>
+        </tr>
+        <tr>
+          <td>Ahmed Mohamed</td>
+          <td>20</td>
+          <td>iamohamed@gmail.com</td>
+          <td>+25290******</td>
+          <td>Male</td>
+          <td>HTML & CSS</td>
+        </tr>
+        <td>Aisha Farah</td>
+        <td>22</td>
+        <td>iamaisha@gmail.com</td>
+        <td>+25290******</td>
+        <td>Female</td>
+        <td>Python</td>
+      </table>
+
+    </form>
+  </div>
+</body>
+</html>
