@@ -1,0 +1,218 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family:monospace ;
+  background-color:#daf1de;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  background-color: #235347;
+  border-bottom-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+
+nav ul{
+  display: flex;
+  gap: 2em;
+  margin-bottom: 14em;
+  
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: color .3s;
+}
+
+nav ul li a:hover{
+  color: orange;
+}
+
+nav p{
+  color: white;
+  text-align: center;
+  font-size: 1.149rem;
+}
+
+.country{
+  text-align: left;
+  padding-left: 8.4em;
+}
+
+main{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  margin-block: 2em;
+}
+
+.card{
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 3em 1.2em;
+  transition: 0.3  box-shadow, 800ms transform ;
+}
+
+.card:hover{
+  box-shadow: 0px 15px 15px  rgba(0, 0, 0, 0.3);
+  transform: scale(1.025);
+}
+
+.card1 h1{
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color:#235347;
+  text-decoration:underline;
+  text-decoration-color:orange ;
+  text-underline-offset:10px;
+  padding-bottom: 1.3em;
+}
+.card1 p{
+  line-height: 1.5;
+}
+
+.card2 h1{
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color:#235347;
+  text-decoration:underline;
+  text-decoration-color:orange ;
+  text-underline-offset:10px;
+  padding-bottom: 1.3em;
+}
+.card2 ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6em;
+}
+.card2 ul li{
+  padding: .5em;
+}
+.box{
+  background-color:#235347;
+  border-radius: 5px;
+  color: white;
+}
+
+.card3 h1{
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color:#235347;
+  text-decoration:underline;
+  text-decoration-color:orange ;
+  text-underline-offset:10px;
+  padding-bottom: 1.3em;
+}
+
+.card3 h4{
+  text-transform: capitalize;
+  font-size: 1rem;
+  color: #235347;
+  padding-bottom: 1.3em;
+}
+.card4 h1{
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color:#235347;
+  text-decoration:underline;
+  text-decoration-color:orange ;
+  text-underline-offset:10px;
+  padding-bottom: 1.3em;
+}
+
+.card4 h4{
+  text-transform: capitalize;
+  font-size: 1rem;
+  color: #235347;
+  padding-bottom: 1.3em;
+}
+
+.date{
+  padding-bottom: 1em;
+}
+
+.card4 ul{
+ padding-left: 2em;
+ margin-top: 1em;
+}
+
+.card4 ul li{
+  margin-bottom:1em ;
+}
+.card5 h1{
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color: #235347;
+  text-decoration:underline;
+  text-decoration-color:orange ;
+  text-underline-offset:10px;
+  padding-bottom: 1.3em;
+}
+
+.card5 h4{
+  text-transform: capitalize;
+  font-size: 1rem;
+  color:#235347;
+  padding-bottom: 1.3em;
+}
+.card5 ul{
+  padding-left: 2em;
+  margin-top: 1em;
+ }
+ 
+ .card5 ul li{
+   margin-bottom:1em ;
+ }
+
+ .card6 h1{
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color:#235347;
+  text-decoration:underline;
+  text-decoration-color:orange ;
+  text-underline-offset:10px;
+  padding-bottom: 1.3em;
+}
+
+.card6 ul{
+  padding-left: 2em;
+  margin-top: 1em;
+ }
+
+ .card6 ul li{
+  margin-bottom:.5em ;
+}
+
+.card6 ul li a{
+  text-decoration: none;
+  color: #235347;
+  transition: color .3s;
+}
+
+.card6 ul li a:hover{
+  color:#ff5b22;
+}
