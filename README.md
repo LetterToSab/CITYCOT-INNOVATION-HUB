@@ -14,5 +14,5 @@ Project 4: It is a webpage featuring icons and a navbar linking to About, Projec
 
 Project 5: This project features a navigation bar and a collection of cards arranged on the same page. Click [here](https://github.com/LetterToSab/CITYCOT-INNOVATION-HUB/tree/main/Html%20%20And%20Css%20Projects/Project5)
 
-Project 6: This project is a combination of a form and table. The form allows users to input data, while the table displays the submitted data in an organized layout. Click
+Project 6: This project is a combination of a form and table. The form allows users to input data, while the table displays the submitted data in an organized layout. Click [here](https://github.com/LetterToSab/CITYCOT-INNOVATION-HUB/tree/main/Html%20%20And%20Css%20Projects/Project6)
 
