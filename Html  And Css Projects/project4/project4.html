@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Four</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      font-family:sans-serif;
+      background-color: rgb(231, 231, 231);
+    }
+    header h1{
+      color: white;
+      background-color:seagreen;
+      text-transform: capitalize;
+      text-align: center;
+      padding: .5em;
+    }
+    nav ul{
+      display: flex;
+      gap: 2em;
+      align-content: center;
+      justify-content: center;
+      background-color:  rgb(32, 32, 32);
+      padding: .3em;
+    }
+    nav ul li{
+      list-style: none;
+    }
+    nav ul li a{
+      text-decoration: none;
+      color: white;
+      text-transform: capitalize;
+    }
+    section{
+      max-width: 1000px;
+      margin: 0 auto;
+      margin-block: 1em;
+    }
+    .section1{
+      text-align: center;
+      text-transform: capitalize;
+    }
+    .section1 img{
+      width: 25px;
+     
+    }
+    .section2 h2{
+      margin-block: 1em;
+      text-transform: capitalize;
+    }
+    table{
+      width: 100%;
+      border-collapse: collapse;
+      padding:20px;
+    }
+    th,td{
+      padding: .5em;
+      text-transform: capitalize;
+    }
+    th{
+      text-align: left;
+      background-color: seagreen; 
+      color: white;
+    }
+    .section3 h2,p{
+      text-align: center;
+      text-transform: capitalize;
+      margin-block: .75em;
+    }
+    .section3 .bold-text{
+      font-weight: bold;
+    }
+    .grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1em;
+    }
+    .card{
+      text-align: center;
+      border: 1px solid #ccc;
+      background-color: white;
+      padding: 1em;
+      border-radius: 5px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    .card img{
+      width: 55px;
+      margin-block:1em ;
+    }
+    .card h4{
+      font-weight: bold;
+    }
+    .card p{
+     font-size: .75rem;
+     font-weight: normal;
+     margin: 0;
+    }
+    
+    form h2{
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    input,textarea,button{
+      width: 100%;
+      margin-block: 1em;
+    }
+    input{
+      padding: .3em;
+    }
+    textarea{
+      padding: 1em;
+    }
+    button{
+      background-color: seagreen; 
+      color: white;
+      border: none;
+      padding: .3em;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HTML learning project</h1>
+    <nav>
+      <ul>
+      <li><a href="#">about</a></li>
+      <li><a href="#">projects</a></li>
+      <li><a href="#">testimonials</a></li>
+      <li><a href="#">contact</a></li>
+    </ul>
+    </nav>
+  </header>
+  <section class="section1">
+    <h2>about this project</h2>
+    <p>this project helps students learn HTML and CSS basics by building a functional webpage</p>
+    <div class="img">
+    <img src="logo.jpg" alt="">
+  </div>
+  </section>
+  <section class="section2">
+    <h2>project list</h2>
+    <table border="1">
+      <tr>
+        <th>Project Name</th>
+        <th>Description</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>Portfolio Website</td>
+        <td>Showcase your projects and skills</td>
+        <td>Completed</td>
+      </tr>
+      <tr>
+        <td>Personal Blog</td>
+        <td>A simple blogging platform</td>
+        <td>In Progress</td>
+      </tr>
+    </table>
+  </section>
+  <section class="section3">
+    <h2>Testimonials</h2>
+    <p><span class="bold-text">Challenge:</span> Recreate this grid layout of testimonials using HTML and CSS</p>
+    <div class="grid">
+    <div class="card card1">
+      <img src="logo.jpg" alt="somtic logo">
+      <h4>Reviewer One</h4>
+      <p>"This project taught me a lot of HTML and CSS
+          I feel much more confident now!"</p>
+    </div>
+    <div class="card card2">
+      <img src="logo.jpg" alt="somtic logo">
+      <h4>Reviewer Two</h4>
+      <p>"A challenging but rewarding experience. Highly reccomended for beginners"</p>
+    </div>
+    <div class="card card3">
+      <img src="logo.jpg" alt="somtic logo">
+      <h4>Reviewer Three</h4>
+      <p>"I was able to create a functional webpage by the end of this" <br></p>
+    </div>
+  </div>
+  </section>
+  <section class="section4">
+    <form action="">
+      <h2>Contact Me</h2>
+      <label for="name">Name:</label><br>
+      <input type="text" name="name" id="name">
+      <label for="email">Email:</label><br>
+      <input type="email" name="email" id="email">
+      <label for="message">Message:</label><br>
+      <textarea name="message" id="message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</body>
+</html>
