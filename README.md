@@ -20,3 +20,5 @@ Project 6: This project is a combination of a form and table. The form allows us
 
 Project 1: It is a university dashboard with login, faculty(department and teachers), student(student attendance and registration) and a profile picture, each displaying different content when selected. Click [here](https://github.com/LetterToSab/CITYCOT-INNOVATION-HUB/tree/main/Boostrap/University-dashboard)
 
+Project 2: It is a hospital dashboard with login, doctor management(add doctor), patient management(list and registration), blood bank(donors and recievers) and profile picture, each displaying unique content upon selection. Click
+
