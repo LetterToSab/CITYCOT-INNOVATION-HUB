@@ -1,4 +1,4 @@
-This repository will showcase my journey through Web development, where i build, learn and improve
+This repository will showcase my journey through Web development, where i build, learn and improve.
 
 ### List of projects in this repository
 
