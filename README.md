@@ -9,3 +9,5 @@ Project 1: It is a simple HTML and CSS webpage containing a header, three sectio
 Project 2: It is a student enrollment form containing input fields to enter data and a table to display the submitted information. Click [here](https://github.com/LetterToSab/CITYCOT-INNOVATION-HUB/tree/main/Html%20%20And%20Css%20Projects/project2)
 
 Project 3: It is a simple portfolio project coded with HTML only (+ a bonus project where i added CSS to the portfolio). Click [here](https://github.com/LetterToSab/CITYCOT-INNOVATION-HUB/tree/main/Html%20%20And%20Css%20Projects/project3)
+
+Project 4: It is a webpage featuring icons and a navbar linking to About, Projects , Testimonials, contact and dedicated section for each navbar link. Click 
