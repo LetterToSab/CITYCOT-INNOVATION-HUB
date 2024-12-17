@@ -18,5 +18,5 @@ Project 6: This project is a combination of a form and table. The form allows us
 
 #### Boostrap projects
 
-Project 1: It is a university dashboard with login, faculty(department and teachers), student(student attendance and registration) and a profile picture, each displaying different content when selected. Click
+Project 1: It is a university dashboard with login, faculty(department and teachers), student(student attendance and registration) and a profile picture, each displaying different content when selected. Click [here](https://github.com/LetterToSab/CITYCOT-INNOVATION-HUB/tree/main/Boostrap/University-dashboard)
 
