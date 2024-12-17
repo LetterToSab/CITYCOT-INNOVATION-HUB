@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project two</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background-color: rgb(246, 246, 246);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    header{
+      color: #fff;
+      text-transform: capitalize;
+      text-align: center;
+      background-color: rgb(6, 134, 6);
+      padding: 1.5em 1.5em;
+    }
+    h2{
+      text-transform: capitalize;
+    }
+    input,textarea,button{
+      width: 100%;
+    }
+    input{
+      padding: .3em;
+      margin-bottom: 2em;
+    }
+    textarea{
+      padding:1.5em;
+      margin-bottom: 2em;
+    }
+    button{
+      background-color:rgb(6, 134, 6);
+      border: none;
+      border-radius: 5px;
+      padding: .5em;
+      color: #fff;
+    }
+    h2{
+      margin-bottom: 1em;
+    }
+    table{
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th,td{
+      padding: .4em;
+    }
+    
+    th{
+      background-color: rgb(6, 134, 6);
+      color: #fff;
+    }
+
+    
+    footer{
+      background-color: rgb(2, 28, 2);
+      color: #fff;
+      padding: .5em;
+      margin-top: 2rem;
+      text-align: center;
+      margin-bottom: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+   <h1> Student Enrollment Form</h1>
+  </header>
+  
+  <form action="">
+    <h2>
+      Enrollment Form
+    </h2>
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" name="fullname" id="fullname"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" name="email" id="email"><br><br>
+    <label for="">select Course:</label>
+    <select name="course" id="course"><br>
+      <option value="HTML Basic">HTML Basic</option>
+      <option value="CSS Basic">Css Fundamentals</option>
+      <option value="JavaScript Essentials">JavaScript Essentials</option>
+    </select><br><br>
+    <label for="">Additional information:</label><br>
+    <textarea name="" id=""></textarea><br>
+    <button type="submit">submit</button>
+  </form>
+  <h2>Enrollment Student</h2>
+  <table border="1">
+    <tr>
+      <th>Student Id</th>
+      <th>Full Name</th>
+      <th>Email</th>
+      <th>Course</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Ayan Mohamed</td>
+      <td>ayan@gmail.com</td>
+      <td>Html basic</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Ali Nuur</td>
+      <td>ali@gmail.com</td>
+      <td>CSS Fundamentals</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Sarah Ahmed</td>
+      <td>sarah@gmail.com</td>
+      <td>JavaScript Essentials</td>
+    </tr>
+  </table><br>
+  <footer>
+    &copy 2024 citycotiHub. All right reserved
+  </footer>
+</body>
+</html>
