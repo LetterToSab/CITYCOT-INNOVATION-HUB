@@ -16,3 +16,7 @@ Project 5: This project features a navigation bar and a collection of cards arra
 
 Project 6: This project is a combination of a form and table. The form allows users to input data, while the table displays the submitted data in an organized layout. Click [here](https://github.com/LetterToSab/CITYCOT-INNOVATION-HUB/tree/main/Html%20%20And%20Css%20Projects/Project6)
 
+#### Boostrap projects
+
+Project 1: It is a university dashboard with login, faculty(department and teachers), student(student attendance and registration) and a profile picture, each displaying different content when selected. Click
+
